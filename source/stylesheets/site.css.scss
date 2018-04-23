@@ -1,20 +1,17 @@
 body {
   background-color: #fdfdfd;
-  font-family: -apple-system, BlinkMacSystemFont, "Trebuchet MS", sans-serif;
+  font-family: "Verdana";
   text-align: center;
 }
 
-a {
-  color: rgba(#000, 0.7);
-
-  &:focus,
-  &:hover {
-    color: rgba(#000, 0.6);
-  }
+.tab {
+  height: 50px;
+  line-height: 50px;
 }
 
-.tab {
-  height: 80px;
+.active {
+  background-color: #fdfdfd;
+  color: #0a0a0a;
 }
 
 .inactive {
@@ -23,9 +20,13 @@ a {
 }
 
 .main {
-  border-width: 570px;
+  padding-left: 216.7px;
+  padding-right: 216.7px;
+  border-color: 3px solid #ff00ff;
 }
 
 .sub {
-  border-width: 398px;
+  width: 398px;
+  font-size: 30px;
+  font-weight: normal;
 }
