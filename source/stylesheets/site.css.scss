@@ -1,5 +1,5 @@
 body {
-  background-color: #FDFDFD;
+  background-color: #fdfdfd;
   color: #333;
   font-family: -apple-system, BlinkMacSystemFont, "Trebuchet MS", sans-serif;
   padding: 18vh 1rem;
@@ -15,7 +15,7 @@ a {
   }
 }
 
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem;
+.inactive {
+  background-color: #0a0a0a;
+  color: #fdfdfd;
 }
