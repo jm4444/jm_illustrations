@@ -1,8 +1,6 @@
 body {
   background-color: #fdfdfd;
-  color: #333;
   font-family: -apple-system, BlinkMacSystemFont, "Trebuchet MS", sans-serif;
-  padding: 18vh 1rem;
   text-align: center;
 }
 
@@ -15,7 +13,19 @@ a {
   }
 }
 
+.tab {
+  height: 80px;
+}
+
 .inactive {
   background-color: #0a0a0a;
   color: #fdfdfd;
+}
+
+.main {
+  border-width: 570px;
+}
+
+.sub {
+  border-width: 398px;
 }
